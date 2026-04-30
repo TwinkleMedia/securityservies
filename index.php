@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +42,7 @@
     <?php include "./navbar.php"; ?>
 
     <!-- Hero Section -->
-    <section class="w-full overflow-hidden
+    <section id="home" class="w-full overflow-hidden
                     h-auto md:h-[700px]">
         <img
             src="./assets/hero2.webp"
@@ -55,7 +55,7 @@
 
 
     <!-- About us  -->
-     <section class="font-poppins bg-[#f2f2f2] py-16 px-4 sm:px-8 lg:px-16">
+     <section  id="about" class="font-poppins bg-[#f2f2f2] py-16 px-4 sm:px-8 lg:px-16">
   <div class="max-w-6xl mx-auto">
  
     <!-- Section Label -->
@@ -114,9 +114,6 @@
             alt="Security Guards"
             class="relative z-10 w-full h-auto rounded-lg object-cover shadow-lg"
           />
-          <div class="absolute bottom-4 left-4 z-20 bg-red-600 text-white text-xs font-bold px-3 py-2 rounded-md shadow-md uppercase tracking-wide">
-            Security Guards
-          </div>
         </div>
       </div>
  
@@ -231,7 +228,7 @@
 <!-- ============================================================
      OUR SERVICES SECTION
 ============================================================ -->
-<section class="font-poppins bg-[#f2f2f2] py-16 px-4 sm:px-8 lg:px-16 relative overflow-hidden">
+<section id="services" class="font-poppins bg-[#f2f2f2] py-16 px-4 sm:px-8 lg:px-16 relative overflow-hidden">
  
   <!-- Subtle decorative circle top-right -->
   <div class="absolute top-0 right-0 w-72 h-72 bg-red-600/5 rounded-full translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
@@ -636,6 +633,152 @@
   </div>
 </section>
 
+<!-- ============================================================
+     OUR CLIENTS SECTION
+============================================================ -->
+<section class="font-poppins bg-[#D9D9D9] py-16 px-4 sm:px-8 lg:px-16 relative overflow-hidden">
+ 
+  <!-- Subtle decorative blobs (matches your other sections) -->
+  <div class="absolute top-0 right-0 w-72 h-72 bg-red-50 rounded-full translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
+  <div class="absolute bottom-0 left-0 w-80 h-80 bg-red-50 rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
+ 
+  <div class="max-w-6xl mx-auto relative z-10">
+ 
+    <!-- Section Label -->
+    <div class="flex items-center justify-center gap-3 mb-3">
+      <div class="w-8 h-[2px] bg-red-600"></div>
+      <span class="text-red-600 text-xs font-semibold uppercase tracking-[0.2em]">Trusted By</span>
+      <div class="w-8 h-[2px] bg-red-600"></div>
+    </div>
+ 
+    <!-- Section Heading -->
+    <h2 class="text-center text-2xl sm:text-3xl font-extrabold text-gray-900 uppercase tracking-widest mb-3">
+      Our <span class="text-red-600">Clients</span>
+    </h2>
+    <p class="text-center text-sm text-gray-400 mb-12 max-w-md mx-auto leading-relaxed">
+      Proud to serve some of India's most recognized organizations and institutions.
+    </p>
+ 
+    <!-- Clients Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
+ 
+      <!-- Client 1 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client1.svg" alt="Nerul Gymkhana"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 2 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client2.svg" alt="Krsnaa Diagnostics"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 3 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/clinet3.webp" alt="Platinium Builders"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 4 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/clinet4.svg" alt="D Y Patil University"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 5 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client5.svg" alt="Indiabulls"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 6 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client6.png" alt="Larsen & Toubro"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 7 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client7.png" alt="Shapoorji Pallonji"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 8 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client8.png" alt="Dosti Friends for Life"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 9 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client9.webp" alt="Joyville by Shapoorji Pallonji"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      <!-- Client 10 -->
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client10.png" alt="Ashar Promises Delivered"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client13.png" alt="Ashar Promises Delivered"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+
+      <div class="group bg-gray-60 border border-gray-100 rounded-xl flex items-center justify-center px-6 py-6 hover:border-red-200 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[100px]">
+        <img src="./assets/client14.png" alt="Ashar Promises Delivered"
+             class="max-h-14 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"/>
+      </div>
+ 
+      
+ 
+    </div>
+    <!-- /grid -->
+ 
+    <!-- Bottom trust strip -->
+    <div class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 py-6 border-t border-gray-100">
+ 
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 bg-red-600 rounded-lg flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/>
+          </svg>
+        </div>
+        <p class="text-sm text-gray-600 font-medium">18+ Years of Trusted Service</p>
+      </div>
+ 
+      <div class="hidden sm:block w-px h-8 bg-gray-200"></div>
+ 
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 bg-red-600 rounded-lg flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/>
+          </svg>
+        </div>
+        <p class="text-sm text-gray-600 font-medium">100+ Satisfied Clients</p>
+      </div>
+ 
+      <div class="hidden sm:block w-px h-8 bg-gray-200"></div>
+ 
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 bg-red-600 rounded-lg flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"/>
+          </svg>
+        </div>
+        <p class="text-sm text-gray-600 font-medium">Army Staff Award Winner</p>
+      </div>
+ 
+    </div>
+ 
+  </div>
+</section>
+<!-- ============================================================
+     END OUR CLIENTS SECTION
+============================================================ -->
+
 
 
 
@@ -703,7 +846,7 @@
 </section>
 
 
-<section class="font-poppins bg-gray-50 py-16 px-4 sm:px-8 lg:px-16 relative overflow-hidden">
+<section id="contact" class="font-poppins bg-gray-60 py-16 px-4 sm:px-8 lg:px-16 relative overflow-hidden">
  
   <!-- Subtle decorative blobs -->
   <div class="absolute top-0 right-0 w-80 h-80 bg-red-50 rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
@@ -742,7 +885,7 @@
           </div>
           <div>
             <p class="text-gray-900 font-semibold text-sm uppercase tracking-wider mb-1">Our Office</p>
-            <p class="text-gray-500 text-sm leading-relaxed">123, Secure Services Building,<br/>Near Main Gate, Mumbai,<br/>Maharashtra – 400001, India</p>
+            <p class="text-gray-500 text-sm leading-relaxed">Hawre Centurion Mall,<br/>3rd Floor , Office Number T-16A , Nerul East , <br/>Navi Mumbai  – 400706</p>
           </div>
         </div>
  
@@ -755,8 +898,8 @@
           </div>
           <div>
             <p class="text-gray-900 font-semibold text-sm uppercase tracking-wider mb-1">Phone</p>
-            <p class="text-gray-500 text-sm">+91 98765 43210</p>
-            <p class="text-gray-500 text-sm">+91 91234 56789</p>
+            <p class="text-gray-500 text-sm">+91 9594037995</p>
+            <p class="text-gray-500 text-sm">+91 7045603454</p>
           </div>
         </div>
  
@@ -769,8 +912,8 @@
           </div>
           <div>
             <p class="text-gray-900 font-semibold text-sm uppercase tracking-wider mb-1">Email</p>
-            <p class="text-gray-500 text-sm">info@secureservices.in</p>
-            <p class="text-gray-500 text-sm">support@secureservices.in</p>
+            <p class="text-gray-500 text-sm">seacureservices312014@gmail.com</p>
+            
           </div>
         </div>
  

@@ -68,7 +68,7 @@
           </div>
           <div>
             <p class="text-white text-[11px] font-bold uppercase tracking-wider mb-1">Office</p>
-            <p class="text-gray-400 text-xs leading-relaxed">123, Secure Services Building,<br/>Near Main Gate, Mumbai,<br/>Maharashtra – 400001</p>
+            <p class="text-gray-400 text-xs leading-relaxed">Hawre Centurian Mall , 3rd Floor <br/>Office Number T-16A ,<br/>Nerul East , Navi Mumbai – 400706</p>
           </div>
         </div>
         <div class="flex gap-3 items-start">
@@ -77,7 +77,7 @@
           </div>
           <div>
             <p class="text-white text-[11px] font-bold uppercase tracking-wider mb-1">Phone</p>
-            <p class="text-gray-400 text-xs">+91 98765 43210<br/>+91 91234 56789</p>
+            <p class="text-gray-400 text-xs">+91 9694037995<br/>+91 7045603454</p>
           </div>
         </div>
         <div class="flex gap-3 items-start">
@@ -86,7 +86,7 @@
           </div>
           <div>
             <p class="text-white text-[11px] font-bold uppercase tracking-wider mb-1">Email</p>
-            <p class="text-gray-400 text-xs">info@secureservices.in<br/>support@secureservices.in</p>
+            <p class="text-gray-400 text-xs">secureservies312014@gmail.com</p>
           </div>
         </div>
       </div>

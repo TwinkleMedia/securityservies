@@ -3,10 +3,10 @@
 $current_page = basename($_SERVER['PHP_SELF'], '.php');
 
 $nav_links = [
-    ['label' => 'HOME',         'href' => 'index.php'],
-    ['label' => 'ABOUT US',     'href' => 'about.php'],
-    ['label' => 'OUR SERVICES', 'href' => 'services.php'],
-    ['label' => 'CONTACT US',   'href' => 'contact.php'],
+    ['label' => 'HOME',         'href' => 'index.php#home'],
+    ['label' => 'ABOUT US',     'href' => 'index.php#about'],
+    ['label' => 'OUR SERVICES', 'href' => 'index.php#services'],
+    ['label' => 'CONTACT US',   'href' => 'index.php#contact'],
 ];
 ?>
 <!DOCTYPE html>
@@ -38,7 +38,7 @@ $nav_links = [
 <body class="bg-white font-poppins">
 
 <!-- ===== NAVBAR ===== -->
-<nav class="bg-gray-200 shadow-sm">
+<nav class="bg-gray-200 shadow-sm sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-center h-20">
 

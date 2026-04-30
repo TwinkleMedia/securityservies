@@ -228,6 +228,317 @@
   </div>
 </section>
 
+<!-- ============================================================
+     OUR SERVICES SECTION
+============================================================ -->
+<section class="font-poppins bg-[#f2f2f2] py-16 px-4 sm:px-8 lg:px-16 relative overflow-hidden">
+ 
+  <!-- Subtle decorative circle top-right -->
+  <div class="absolute top-0 right-0 w-72 h-72 bg-red-600/5 rounded-full translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
+  <!-- Subtle decorative circle bottom-left -->
+  <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#08043F]/5 rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
+ 
+  <div class="max-w-6xl mx-auto relative z-10">
+ 
+    <!-- Section Label -->
+    <div class="flex items-center gap-3 mb-3">
+      <div class="w-8 h-1 bg-red-600 rounded-full"></div>
+      <span class="text-red-600 font-semibold text-sm uppercase tracking-widest">What We Offer</span>
+    </div>
+ 
+    <!-- Section Heading -->
+    <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 uppercase tracking-wide">
+        Our <span class="text-red-600">Services</span>
+      </h2>
+      <p class="text-sm text-gray-500 max-w-sm leading-relaxed">
+        Professionally trained personnel and proven systems to protect what matters most to you.
+      </p>
+    </div>
+ 
+    <!-- Services Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+ 
+      <!-- Card 1 – Security Guard Services -->
+      <a href="#"
+         class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100
+                hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col">
+ 
+        <!-- Top colour strip -->
+        <div class="h-1 w-full bg-red-600"></div>
+ 
+        <!-- Icon area -->
+        <div class="px-7 pt-8 pb-5">
+          <div class="w-14 h-14 bg-red-600/10 rounded-xl flex items-center justify-center mb-6
+                      group-hover:bg-red-600 transition-colors duration-300">
+            <!-- Shield icon -->
+            <svg class="w-7 h-7 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0
+                       013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824
+                       10.29 9 11.623 5.176-1.332 9-6.03 9-11.622
+                       0-1.31-.21-2.571-.598-3.751h-.152c-3.196
+                       0-6.1-1.248-8.25-3.285z"/>
+            </svg>
+          </div>
+ 
+          <h3 class="text-gray-900 font-bold text-base uppercase tracking-wider mb-3">
+            Security Guard Services
+          </h3>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Highly trained, uniformed guards deployed at residential, commercial, and industrial
+            sites to ensure round-the-clock protection.
+          </p>
+        </div>
+ 
+        <!-- Footer link -->
+        <div class="mt-auto px-7 py-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-red-600 text-xs font-semibold uppercase tracking-widest">Learn More</span>
+          <span class="w-7 h-7 bg-red-600/10 rounded-full flex items-center justify-center
+                       group-hover:bg-red-600 transition-colors duration-300">
+            <svg class="w-3.5 h-3.5 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+ 
+      <!-- Card 2 – Corporate Security -->
+      <a href="#"
+         class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100
+                hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col">
+        <div class="h-1 w-full bg-red-600"></div>
+        <div class="px-7 pt-8 pb-5">
+          <div class="w-14 h-14 bg-red-600/10 rounded-xl flex items-center justify-center mb-6
+                      group-hover:bg-red-600 transition-colors duration-300">
+            <!-- Building icon -->
+            <svg class="w-7 h-7 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5
+                       3.75h1.5m-1.5 3.75h1.5m3-7.5H15m-1.5 3.75H15m-1.5
+                       3.75H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621
+                       0 1.125.504 1.125 1.125V21"/>
+            </svg>
+          </div>
+          <h3 class="text-gray-900 font-bold text-base uppercase tracking-wider mb-3">
+            Corporate Security
+          </h3>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Tailored security strategies for corporate offices, IT parks, and business complexes
+            with access control and threat management.
+          </p>
+        </div>
+        <div class="mt-auto px-7 py-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-red-600 text-xs font-semibold uppercase tracking-widest">Learn More</span>
+          <span class="w-7 h-7 bg-red-600/10 rounded-full flex items-center justify-center
+                       group-hover:bg-red-600 transition-colors duration-300">
+            <svg class="w-3.5 h-3.5 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+ 
+      <!-- Card 3 – Event Security -->
+      <a href="#"
+         class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100
+                hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col">
+        <div class="h-1 w-full bg-red-600"></div>
+        <div class="px-7 pt-8 pb-5">
+          <div class="w-14 h-14 bg-red-600/10 rounded-xl flex items-center justify-center mb-6
+                      group-hover:bg-red-600 transition-colors duration-300">
+            <!-- Flag/event icon -->
+            <svg class="w-7 h-7 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0
+                       016.208.682l.108.054a9 9 0
+                       006.086.71l3.114-.732a48.524 48.524
+                       0 01-.005-10.499l-3.11.732a9 9 0
+                       01-6.085-.711l-.108-.054a9 9 0
+                       00-6.208-.682L3 4.5M3 15V4.5"/>
+            </svg>
+          </div>
+          <h3 class="text-gray-900 font-bold text-base uppercase tracking-wider mb-3">
+            Event Security
+          </h3>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Professional crowd management and security for concerts, exhibitions, sports events,
+            and private gatherings of all scales.
+          </p>
+        </div>
+        <div class="mt-auto px-7 py-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-red-600 text-xs font-semibold uppercase tracking-widest">Learn More</span>
+          <span class="w-7 h-7 bg-red-600/10 rounded-full flex items-center justify-center
+                       group-hover:bg-red-600 transition-colors duration-300">
+            <svg class="w-3.5 h-3.5 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+ 
+      <!-- Card 4 – Fire Safety Training -->
+      <a href="#"
+         class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100
+                hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col">
+        <div class="h-1 w-full bg-red-600"></div>
+        <div class="px-7 pt-8 pb-5">
+          <div class="w-14 h-14 bg-red-600/10 rounded-xl flex items-center justify-center mb-6
+                      group-hover:bg-red-600 transition-colors duration-300">
+            <!-- Fire icon -->
+            <svg class="w-7 h-7 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0
+                       013.75 12.75 8.275 8.275 0 016 7.25c0 2.652 1.5
+                       4.998 3.75 6.25-.25-1.5 0-3.25 1.25-4.75a4.25
+                       4.25 0 011.5 3.25c.75-1.25 1-2.75.75-4.25.75
+                       1 1.25 2.75 1.25 4A4.25 4.25 0
+                       0118 12.75c0-3.5-1.75-6.5-4.5-8.5l1.862.964z"/>
+            </svg>
+          </div>
+          <h3 class="text-gray-900 font-bold text-base uppercase tracking-wider mb-3">
+            Fire Safety Training
+          </h3>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Certified fire safety drills, evacuation planning, and hands-on extinguisher training
+            delivered by qualified ex-servicemen instructors.
+          </p>
+        </div>
+        <div class="mt-auto px-7 py-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-red-600 text-xs font-semibold uppercase tracking-widest">Learn More</span>
+          <span class="w-7 h-7 bg-red-600/10 rounded-full flex items-center justify-center
+                       group-hover:bg-red-600 transition-colors duration-300">
+            <svg class="w-3.5 h-3.5 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+ 
+      <!-- Card 5 – Manpower Solutions -->
+      <a href="#"
+         class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100
+                hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col">
+        <div class="h-1 w-full bg-red-600"></div>
+        <div class="px-7 pt-8 pb-5">
+          <div class="w-14 h-14 bg-red-600/10 rounded-xl flex items-center justify-center mb-6
+                      group-hover:bg-red-600 transition-colors duration-300">
+            <!-- Users icon -->
+            <svg class="w-7 h-7 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337
+                       0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15
+                       19.128v-.003c0-1.113-.285-2.16-.786-3.07M15
+                       19.128v.106A12.318 12.318 0 018.624 21c-2.331
+                       0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375
+                       0 0111.964-3.07M12 6.375a3.375 3.375 0
+                       11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625
+                       2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/>
+            </svg>
+          </div>
+          <h3 class="text-gray-900 font-bold text-base uppercase tracking-wider mb-3">
+            Manpower Solutions
+          </h3>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Skilled and vetted manpower placement for housekeeping, facility management, and
+            support staff requirements across sectors.
+          </p>
+        </div>
+        <div class="mt-auto px-7 py-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-red-600 text-xs font-semibold uppercase tracking-widest">Learn More</span>
+          <span class="w-7 h-7 bg-red-600/10 rounded-full flex items-center justify-center
+                       group-hover:bg-red-600 transition-colors duration-300">
+            <svg class="w-3.5 h-3.5 text-red-600 group-hover:text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+ 
+      <!-- Card 6 – 24/7 Emergency Support (Dark highlight card) -->
+      <a href="#"
+         class="group relative bg-[#08043F] rounded-xl overflow-hidden shadow-sm border border-[#08043F]
+                hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col">
+        <div class="h-1 w-full bg-red-600"></div>
+        <div class="px-7 pt-8 pb-5">
+          <div class="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center mb-6
+                      group-hover:bg-red-600 transition-colors duration-300">
+            <!-- Bell / emergency icon -->
+            <svg class="w-7 h-7 text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M14.857 17.082a23.848 23.848 0
+                       005.454-1.31A8.967 8.967 0
+                       0118 9.75v-.7V9A6 6 0 006 9v.75a8.967
+                       8.967 0 01-2.312 6.022c1.733.64
+                       3.56 1.085 5.455 1.31m5.714
+                       0a24.255 24.255 0 01-5.714
+                       0m5.714 0a3 3 0 11-5.714 0"/>
+            </svg>
+          </div>
+          <h3 class="text-white font-bold text-base uppercase tracking-wider mb-3">
+            24/7 Emergency Support
+          </h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Our Central Monitoring Station and rapid-response teams are available around the clock
+            to address any security emergency instantly.
+          </p>
+        </div>
+        <div class="mt-auto px-7 py-4 border-t border-white/10 flex items-center justify-between">
+          <span class="text-red-400 text-xs font-semibold uppercase tracking-widest">Learn More</span>
+          <span class="w-7 h-7 bg-white/10 rounded-full flex items-center justify-center
+                       group-hover:bg-red-600 transition-colors duration-300">
+            <svg class="w-3.5 h-3.5 text-white transition-colors duration-300"
+                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+ 
+    </div><!-- /grid -->
+ 
+    <!-- Bottom CTA Banner -->
+    <div class="mt-12 bg-[#08043F] rounded-2xl px-8 py-8 sm:py-10 flex flex-col sm:flex-row
+                items-center justify-between gap-6 relative overflow-hidden">
+      <!-- decorative circle -->
+      <div class="absolute right-0 top-0 w-48 h-48 bg-red-600/10 rounded-full
+                  translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
+ 
+      <div class="text-center sm:text-left">
+        <p class="text-white font-extrabold text-lg sm:text-xl uppercase tracking-wide">
+          Need a Custom Security Plan?
+        </p>
+        <p class="text-gray-400 text-sm mt-1">
+          Talk to our experts and get a solution tailored to your requirements.
+        </p>
+      </div>
+ 
+      <a href="#"
+         class="flex-shrink-0 bg-red-600 hover:bg-red-700 active:scale-[0.97]
+                text-white font-bold text-sm uppercase tracking-widest
+                px-8 py-4 rounded-lg shadow-md shadow-red-900/30
+                transition-all duration-200 whitespace-nowrap">
+        Contact Us
+      </a>
+    </div>
+ 
+  </div>
+</section>
+<!-- ============================================================
+     END OUR SERVICES SECTION
+============================================================ -->
+
 
 
 <section class="font-poppins bg-[#08043F] py-16 px-6 sm:px-12 lg:px-24 relative overflow-hidden">

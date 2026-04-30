@@ -5,7 +5,7 @@
 
     <!-- Brand Column -->
     <div>
-      <p class="text-2xl font-extrabold uppercase tracking-wider text-white">Secure<span class="text-red-600">Services</span></p>
+     <img src="./assets/sslogo.png" alt="Secure Services" class="h-25 w-auto object-contain" />
       <p class="text-xs text-gray-400 mt-2 leading-relaxed max-w-[240px]">Professionally qualified security & manpower service provider. Protecting lives since 2006.</p>
       <div class="w-8 h-[3px] bg-red-600 rounded-full my-5"></div>
 

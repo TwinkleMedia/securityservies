@@ -77,7 +77,7 @@
           </div>
           <div>
             <p class="text-white text-[11px] font-bold uppercase tracking-wider mb-1">Phone</p>
-            <p class="text-gray-400 text-xs">+91 9694037995<br/>+91 7045603454</p>
+            <p class="text-gray-400 text-xs">+91 9594228335</p>
           </div>
         </div>
         <div class="flex gap-3 items-start">
